@@ -1,0 +1,10 @@
+yt-get (0.1.1) stable; urgency=medium
+
+  * New:
+    - Support for lists
+    - Auto-detection if a URL is a list or a video.
+    - Option to download individual videos from a list.
+    - An option to select all/none.
+
+ -- Milos Pavlovic <mpsrbija@gmail.com>  Fri, 26 Aug 2016 21:01:18 +0100
+

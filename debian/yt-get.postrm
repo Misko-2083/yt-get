@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if [ -h /usr/bin/yt-get ]; then
+	rm /usr/bin/yt-get && echo "Symlink removed"
+else
+   echo "Symlink not found, skipping."
+fi
+exit

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/usr/bin/yt-get
+Icon=browser-download
+Keywords=video;internet;download;youtube
+Categories=GTK;Internet;
+Name=YT get
+Name[sr@latin]=YT preuzimač
+Name[sr]=ЈТ преузимач
+Comment=Downloads a YT video or a list.
+Comment[sr@latin]=Preuzima YT video ili listu.
+Comment[sr]=Преузима ЈТ видео или листу.

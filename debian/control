@@ -1,0 +1,19 @@
+Source: yt-get
+Section: misc
+Priority: optional
+Maintainer: Milos Pavlovic <mpsrbija@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.6
+
+Package: yt-get
+Architecture: all
+Section: misc
+Priority: optional
+Depends: ${misc:Depends}, coreutils (>= 7.4), bash (>= 4.1), jq, youtube-dl, yad (>= 0.26.0)
+Description: youtube-dl wrapper for YT videos. 
+ Asks the user to paste the youtube video(s) or list(s) url(s),
+ select the destination folder and a download format,
+ optionally there is a custom format selection, and finally, while showing progress, 
+ downloads the videos or list(s). Simultaneous downloads are also available.
+ .
+ Uses YAD for GUI dialogs and jq to extract the video info.
