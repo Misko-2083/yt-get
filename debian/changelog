@@ -1,3 +1,10 @@
+yt-get (0.1.2) stable; urgency=medium
+
+  * New:
+    - Add ffmpeg to deps
+
+ -- Milos Pavlovic <mpsrbija@gmail.com>  Fri, 26 Aug 2016 23:02:22 +0100
+
 yt-get (0.1.1) stable; urgency=medium
 
   * New:

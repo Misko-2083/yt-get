@@ -9,7 +9,8 @@ Package: yt-get
 Architecture: all
 Section: misc
 Priority: optional
-Depends: ${misc:Depends}, coreutils (>= 7.4), bash (>= 4.1), jq, youtube-dl, yad (>= 0.26.0)
+Depends: ${misc:Depends}, coreutils (>= 7.4), bash (>= 4.1), jq, youtube-dl, yad (>= 0.26.0), 
+ffmpeg
 Description: youtube-dl wrapper for YT videos. 
  Asks the user to paste the youtube video(s) or list(s) url(s),
  select the destination folder and a download format,
